@@ -46,3 +46,11 @@ button{
 .threewide{
     width: 131px;
 }
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}

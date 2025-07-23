@@ -12,39 +12,44 @@
     >
 </head>
 <body>
-    <div id="calc">
-        <input id="res" readonly>
-        <div id="buttons">
-            <div class="buttrow">
-                <button onclick="clearCE()">CE</button>
-                <button onclick="clearCE()">C</button>
-                <button onclick="deleteLast()">←</button>
-                <button onclick="append('÷')">÷</button>
-            </div>
-            <div class="buttrow">
-                <button onclick="append('7')">7</button>
-                <button onclick="append('8')">8</button>
-                <button onclick="append('9')">9</button>
-                <button onclick="append('×')">×</button>
-            </div>
-            <div class="buttrow">
-                <button onclick="append('4')">4</button>
-                <button onclick="append('5')">5</button>
-                <button onclick="append('6')">6</button>
-                <button onclick="append('+')">+</button>
-            </div>
-            <div class="buttrow">
-                <button onclick="append('1')">1</button>
-                <button onclick="append('2')">2</button>
-                <button onclick="append('3')">3</button>
-                <button onclick="append('-')">-</button>
-            </div>
-            <div class="buttrow">
-                <button class="threewide" onclick="append('0')">0</button>
-                <button onclick="append('.')">.</button>
-                <button onclick="calc()">=</button>
+    <div id="wrapper">
+        <div id="calc">
+            <input id="res" readonly>
+            <div id="buttons">
+                <div class="buttrow">
+                    <button onclick="clearCE()">CE</button>
+                    <button onclick="clearCE()">C</button>
+                    <button onclick="deleteLast()">←</button>
+                    <button onclick="append('÷')">÷</button>
+                </div>
+                <div class="buttrow">
+                    <button onclick="append('7')">7</button>
+                    <button onclick="append('8')">8</button>
+                    <button onclick="append('9')">9</button>
+                    <button onclick="append('×')">×</button>
+                </div>
+                <div class="buttrow">
+                    <button onclick="append('4')">4</button>
+                    <button onclick="append('5')">5</button>
+                    <button onclick="append('6')">6</button>
+                    <button onclick="append('+')">+</button>
+                </div>
+                <div class="buttrow">
+                    <button onclick="append('1')">1</button>
+                    <button onclick="append('2')">2</button>
+                    <button onclick="append('3')">3</button>
+                    <button onclick="append('-')">-</button>
+                </div>
+                <div class="buttrow">
+                    <button class="threewide" onclick="append('0')">0</button>
+                    <button onclick="append('.')">.</button>
+                    <button onclick="calc()">=</button>
+                </div>
             </div>
         </div>
+        <footer>
+            <p style="text-align:center; font-size: 15px; font">&copy; 2025 Precious Corp&trade;</p>
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>

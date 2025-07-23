@@ -1,3 +1,5 @@
+// calculATEor script
+
 const display = document.getElementById("res");
 function append(inp){
     display.value += inp;
