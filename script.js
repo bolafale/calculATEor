@@ -11,5 +11,10 @@ function clearCE(){
     display.value = "";
 }
 function calc(){
-    display.value = eval(display.value.replace('÷', '/'));
+    try{
+        display.value = eval(display.value.replace('÷', '/').replace("×", '*'));
+    } catch(error){
+        alert("Error :((((((");
+        display.value = "";
+    }
 }
